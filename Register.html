@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login File</title>
+	<!-- Bootstrap CSS -->
+	<!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="css/"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a href="Basic.html" class="navbar-brand ">Meine erste Bootstrapseite</a>
+			<div class="navbar-nav">
+				<div class="navbar">
+					<a href="Basic.html" class="nav-link ">Home&nbsp;&nbsp;&nbsp;</a>
+					<a href="#" class="nav-link">Services&nbsp;&nbsp;&nbsp;</a>
+					<a href="#" class="nav-link">About&nbsp;&nbsp;&nbsp;</a>
+					<a href="#" class="nav-link">Contact&nbsp;&nbsp;&nbsp;</a>
+				</div>
+			</div>
+			<div class="navbar-nav">
+				<div class="navbar ms-auto">
+					<a href="Login.html" class="nav-link">Login&nbsp;&nbsp;</a>
+					<a href="Register.html" class="nav-link">Register&nbsp;&nbsp;</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<br>
+    <div class="container">
+        <h3>Registrierung</h3>
+        <br>
+        <form>
+            <div class="row">
+                <div class="col-3">
+                    <label class="form-label" for="inputFirstName" >Vorname:</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Vorname">
+                </div>  
+                <div class="col-3">
+                    <label class="form-label" for="inputLastName">Nachname:</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Nachname">
+                </div>  
+            </div>
+            <br>
+            <div class="col-3">
+                <label class="form-label" for="inputDate">Geburtstag:</label>
+                <input type="date" class="form-control" id="inputDate">
+            </div>
+            <br>
+            <div class="col-3">
+                <label class="form-label" for="inputEmail">E-mail:</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-5">
+                    <label class="form-label" for="inputStreetname">Straßenname:</label>
+                    <input type="text" class="form-control" id="inputStreetname" placeholder="Straßenname">
+                </div>  
+                <div class="col-1">
+                    <label class="form-label" for="houseNumber">Hausnummer:</label>
+                    <input type="text" class="form-control" id="houseNumber" placeholder="Nr.">
+                </div>  
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-5">
+                    <label class="form-label" for="inputCtyName">Stadt:</label>
+                    <input type="text" class="form-control" id="inputCtyName" placeholder="Stadt">
+                </div>  
+                <div class="col-1">
+                    <label class="form-label" for="zipCode">Postleitzahl:</label>
+                    <input type="text" class="form-control" id="zipCode" placeholder="Plz.">
+                </div>  
+            </div>
+            <br>
+            <div class="col-3">
+                <label class="form-label" for="country">Land:</label>
+                <input type="text" class="form-control" id="country" placeholder="Land.">
+            </div>
+            <br>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="acceptLicense">
+                <label class="form-check-label" for="acceptLicense">Ich Akzeptire die Lizenzvereinbarung</label>
+            </div>
+            <br>
+            <div>
+                <a href="" class="btn btn-success" type="button" id="registrationBtn">Regiestriren</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
